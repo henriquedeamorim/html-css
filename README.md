@@ -16,5 +16,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/007-principais-formatações">Exercicio <b>007</b></a></li>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/008-outras-formatações">Exercicio <b>008</b></a></li>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/009-listas">Exercicio <b>009</b></a></li>
-    <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/010-links-download">Exercicio <b>010</b></a></li>
+    <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/010-links-download/index.html">Exercicio <b>010</b></a></li>
 </ul>
