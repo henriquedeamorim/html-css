@@ -3,7 +3,7 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<h1>Execute</h1>
+<h1>HTML5</h1>
 
 <ul>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/001-ola-mundo/">Exercicio <b>001</b></a></li>
