@@ -9,7 +9,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/002-paragrafo-e-quebra-de-linhas">Exercicio <b>002</b></a></li>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/003-imagens">Exercicio <b>003</b></a></li>
     <b>
-    <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/004-favicon">Exercicio 004</a></li>
+    <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/004-favicon">Exercicio <b>004</b></a></li>
     </b>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/006-hirarquia-de-titulos">Exercicio <b>006</b></a></li>
     <li><a href="https://henriquedeamorim.github.io/html-css/1.exercicios/007-principais-formatações">Exercicio <b>007</b></a></li>
