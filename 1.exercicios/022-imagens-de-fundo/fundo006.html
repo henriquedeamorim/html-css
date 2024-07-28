@@ -7,16 +7,24 @@
     <title>Teste de Imagem de Fundo</title>
     <style>
         body {
+           /* height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
-
+            background-attachment: fixed; */
+        
+        /* ShortHand - Background
+        color > image > position > Repeat > [size] > attachment
+         */
+         background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+         background-size: cover;
         }
+    
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -28,7 +36,12 @@
 <body><main>
     <h1>Teste de Imagem de Fundo</h1>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus placeat saepe sint cumque a dignissimos? Necessitatibus eveniet rem, voluptates nesciunt assumenda velit nam ex labore corrupti aspernatur. Perferendis, voluptas?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quia quisquam, similique asperiores pariatur amet soluta iste modi porro tempora voluptatem fugit eveniet, mollitia sapiente alias nisi vero, quasi vitae!</p>
 </main>
     
 </body>
