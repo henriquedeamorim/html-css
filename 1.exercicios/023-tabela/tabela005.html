@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+table {
+ width: 450px;
+ border-collapse: collapse;
+ letter-spacing: 2px;
+ box-shadow: 1px 1px 10px black;
+}
+
+col.A {
+    background-color: #011627;
+    color: antiquewhite;    
+}
+
+col.B {
+    background-color: #f71735;
+}
+
+col.C {
+    background: #41ead4;
+}
+
+col.D {
+    background-color: #f7dd72;
+}
+
+caption {
+    font-weight: bold;
+    padding: 5px;
+    border: solid 1px rgb(10, 9, 9);
+    background-color: antiquewhite;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td.AA,td.AB,td.AC,td.AD,td.AE,td.AF { 
+color: antiquewhite;
+border: solid 1.1px #f7dd72;
+}
+
+th.Ax {
+    color: white;
+    font-weight: bolder;
+    border: solid 1px;
+}
+
+.destaque {
+    background-color: greenyellow;
+}
+    </style>
+</head>
+
+<body>
+                  <h1>Exercício de Tabela</h1>
+<table>
+    <colgroup>
+        <col class="A">
+        <col class="B">
+        <col class="C">
+        <col class="D">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <thead> 
+                <th scope="col" class="Ax">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profisão</th>
+        </thead>
+        <tbody>
+                <tr>
+                    <td class="AA">Ana Maria</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>Jornalista</td>
+                </tr>
+                <tr>
+                    <td class="AB">Cláudio</td>
+                    <td>M</td>
+                    <td>28</td>
+                    <td>Programador</td>
+                </tr>
+                <tr>
+                    <td class="AC">Gustavo</td>
+                    <td>M</td>
+                    <td>42</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td class="AD">Hélio</td>
+                    <td>M</td>
+                    <td>19</td>
+                    <td>Vendedor</td>
+                </tr>
+                <tr>
+                    <td class="AE">Maria</td>
+                    <td>F</td>
+                    <td>39</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td class="AF">Otávio</td>
+                    <td>M</td>
+                    <td>22</td>
+                    <td>Nutricionista</td>
+                </tr>
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>
